@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>사꾸작 개인정보처리방침</title>
+<meta name="description" content="사꾸작(Sakujak) 앱 개인정보처리방침 — 개인정보를 수집하지 않습니다.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f6f4;
+    --text: #23212a;
+    --muted: #5f5b68;
+    --line: #e3e0dc;
+    --accent: #c2708c;
+    --tape-pink: #F4A8BE;
+    --tape-yellow: #FFDE96;
+    --tape-blue: #A8D6DE;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17161c;
+      --surface: #201f27;
+      --text: #ece9f0;
+      --muted: #a8a3b2;
+      --line: #322f3b;
+      --accent: #F4A8BE;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17161c;
+    --surface: #201f27;
+    --text: #ece9f0;
+    --muted: #a8a3b2;
+    --line: #322f3b;
+    --accent: #F4A8BE;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Malgun Gothic", "Noto Sans KR", Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 16px 96px; }
+
+  header { margin-bottom: 40px; }
+  .tapes { display: flex; gap: 6px; margin-bottom: 24px; }
+  .tapes span {
+    height: 10px; flex: 1; border-radius: 2px; transform: rotate(-0.6deg);
+  }
+  .tapes span:nth-child(1) { background: var(--tape-pink); }
+  .tapes span:nth-child(2) { background: var(--tape-yellow); transform: rotate(0.5deg); }
+  .tapes span:nth-child(3) { background: var(--tape-blue); transform: rotate(-0.3deg); }
+
+  h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 0.9rem; margin: 0; }
+
+  h2 {
+    font-size: 1.1rem; margin: 40px 0 12px; padding-top: 24px;
+    border-top: 1px solid var(--line); letter-spacing: -0.01em;
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 { font-size: 0.98rem; margin: 24px 0 8px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 1.3em; }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); }
+
+  .callout {
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 18px 20px;
+    margin: 0 0 32px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout strong { font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.85em; background: var(--surface); padding: 2px 5px; border-radius: 4px;
+  }
+
+  .en { margin-top: 64px; padding-top: 32px; border-top: 2px solid var(--line); }
+  .en h2 { border-top: 1px solid var(--line); }
+  .en h2:first-of-type { border-top: none; padding-top: 0; }
+
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.85rem;
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 36px 16px 72px; }
+    h1 { font-size: 1.5rem; }
+    th, td { padding: 8px 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="tapes" aria-hidden="true"><span></span><span></span><span></span></div>
+    <h1>사꾸작 개인정보처리방침</h1>
+    <p class="sub">시행일: 2026년 9월 22일 · 최종 수정일: 2026년 9월 22일</p>
+  </header>
+
+  <div class="callout">
+    <p><strong>요약: 사꾸작은 개인정보를 수집하지 않습니다.</strong></p>
+    <p>모든 사진 편집은 사용자의 기기 안에서만 이루어지며, 앱은 인터넷 접근 권한 자체를
+      갖고 있지 않습니다. 사진이나 영상이 외부로 전송되는 경로가 존재하지 않습니다.</p>
+  </div>
+
+  <h2>1. 개요</h2>
+  <p>이 방침은 안드로이드 앱 <strong>사꾸작</strong>(패키지명 <code>com.dosa.sakujak</code>,
+    이하 "앱")의 개인정보 처리에 관한 사항을 안내합니다. 앱은 사진에 마스킹 테이프 느낌의
+    글씨와 테이프를 올려 꾸미고, 그 결과를 사용자의 기기에 저장하는 기능만을 제공합니다.</p>
+
+  <h2>2. 수집하는 개인정보</h2>
+  <p><strong>앱은 어떠한 개인정보도 수집하지 않습니다.</strong> 구체적으로 다음 항목을
+    수집·저장·전송하지 않습니다.</p>
+  <ul>
+    <li>이름, 이메일 주소, 전화번호 등 신원 정보</li>
+    <li>기기 식별자, 광고 ID</li>
+    <li>위치 정보</li>
+    <li>연락처, 통화 기록, 메시지</li>
+    <li>앱 사용 기록, 이용 통계, 진단 정보, 오류 보고</li>
+    <li>사용자가 선택하거나 만든 사진 및 영상</li>
+  </ul>
+  <p>앱은 회원가입이나 로그인 절차가 없으며, 계정을 만들지 않습니다.</p>
+
+  <h2>3. 사진과 영상의 처리 방식</h2>
+  <p>앱은 사용자가 고른 사진을 꾸미기 위해 사진에 접근하지만, 그 처리 과정은 전부
+    기기 내부에서 끝납니다.</p>
+  <ul>
+    <li><strong>사진 선택</strong> — 안드로이드가 제공하는 사진 선택 도구(Photo Picker)를
+      사용합니다. 이 방식에서는 사용자가 그 순간 직접 고른 사진만 앱에 전달되며,
+      앱은 사진첩 전체에 접근할 수 없습니다.</li>
+    <li><strong>편집</strong> — 글씨·테이프를 올리고 이미지나 영상으로 합성하는 모든 연산은
+      사용자의 기기에서 수행됩니다. 외부 서버나 클라우드를 사용하지 않습니다.</li>
+    <li><strong>저장</strong> — 사용자가 저장 버튼을 눌렀을 때에만 결과물이 기기의
+      갤러리에 저장됩니다. 이미지는 <code>Pictures/사꾸작</code>, 영상은
+      <code>Movies/사꾸작</code> 폴더에 저장되며, 저장된 파일은 사용자 기기에만 존재합니다.</li>
+    <li><strong>보관</strong> — 앱은 사용자가 선택한 원본 사진을 따로 복사해 두거나
+      보관하지 않습니다. 앱을 닫으면 편집 중이던 내용은 사라집니다.</li>
+  </ul>
+
+  <h2>4. 앱이 요청하는 권한</h2>
+  <table>
+    <tr>
+      <th>권한</th>
+      <th>용도</th>
+    </tr>
+    <tr>
+      <td><code>WRITE_EXTERNAL_STORAGE</code></td>
+      <td>꾸민 사진·영상을 갤러리에 저장하기 위해 사용합니다.
+        <strong>Android 9(API 28) 이하에서만</strong> 요청하며, Android 10 이상에서는
+        요청하지 않습니다.</td>
+    </tr>
+  </table>
+  <p>위 권한 외에 앱이 요청하는 권한은 없습니다. 특히 앱은
+    <strong>인터넷(<code>INTERNET</code>) 권한을 선언하지 않습니다.</strong>
+    따라서 앱은 네트워크 통신을 수행할 수 없으며, 사용자의 사진이나 어떤 정보도
+    외부로 보낼 방법이 없습니다.</p>
+
+  <h2>5. 제3자 서비스 및 광고</h2>
+  <p>앱에는 광고가 없고, 인앱 결제도 없습니다. 분석 도구(애널리틱스), 광고 네트워크,
+    크래시 리포팅 등 개인정보를 수집할 수 있는 제3자 SDK를 일절 포함하지 않습니다.
+    따라서 제3자에게 개인정보를 제공하거나 위탁하는 일이 없습니다.</p>
+
+  <h2>6. 공유 기능에 관하여</h2>
+  <p>저장이 끝난 뒤 사용자가 "공유"를 선택하면, 안드로이드의 공유 기능을 통해
+    사용자가 직접 고른 다른 앱(예: 메신저, 사회관계망 서비스)으로 파일이 전달됩니다.
+    이 전달은 사용자의 선택에 따라 이루어지며, 전달된 이후의 처리는 해당 앱의
+    개인정보처리방침이 적용됩니다. 사꾸작은 이 과정에 관여하지 않고, 어떤 정보도
+    기록하지 않습니다.</p>
+
+  <h2>7. 아동의 개인정보</h2>
+  <p>앱은 연령과 무관하게 어떠한 개인정보도 수집하지 않으므로, 아동의 개인정보 역시
+    수집하지 않습니다. 앱은 아동을 주 대상으로 설계된 앱이 아닙니다.</p>
+
+  <h2>8. 데이터 보관 및 삭제</h2>
+  <p>앱이 보관하는 사용자 데이터가 없으므로 삭제를 요청할 대상도 없습니다.
+    사용자가 저장한 사진과 영상은 사용자 기기에만 있으며, 기기의 갤러리 앱이나
+    파일 관리자에서 직접 삭제할 수 있습니다. 앱을 삭제하면 앱의 설정값도 함께 지워지며,
+    이미 갤러리에 저장한 사진과 영상은 그대로 남습니다.</p>
+
+  <h2>9. 방침의 변경</h2>
+  <p>앱의 기능이 바뀌어 이 방침을 수정할 필요가 생기면, 이 페이지를 갱신하고 위의
+    최종 수정일을 변경합니다. 개인정보 수집이 새로 생기는 등 중요한 변경이 있을 경우에는
+    앱 업데이트를 통해 별도로 안내합니다.</p>
+
+  <h2>10. 문의</h2>
+  <p>이 방침이나 앱의 개인정보 처리에 관해 궁금한 점이 있으면 아래로 연락해 주세요.</p>
+  <p><a href="mailto:yooheeung@gmail.com">yooheeung@gmail.com</a></p>
+
+  <!-- ─────────────── English ─────────────── -->
+  <section class="en" lang="en">
+    <h1>Privacy Policy — Sakujak</h1>
+    <p class="sub">Effective: September 22, 2026 · Last updated: September 22, 2026</p>
+
+    <div class="callout">
+      <p><strong>Summary: Sakujak collects no personal data.</strong></p>
+      <p>All photo editing happens entirely on your device. The app does not hold the
+        internet permission, so there is no path by which your photos or any other
+        information could leave your device.</p>
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>This policy describes how the Android app <strong>Sakujak</strong>
+      (package <code>com.dosa.sakujak</code>, the "App") handles information. The App
+      lets you decorate a photo with masking-tape-style lettering and tape strips, and
+      save the result to your device.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p><strong>None.</strong> The App does not collect, store, or transmit any of the
+      following: identity information (name, email, phone number), device or advertising
+      identifiers, location, contacts, messages, usage analytics, diagnostics or crash
+      reports, or the photos and videos you select or create. There is no sign-up or
+      login, and no account is created.</p>
+
+    <h2>3. How Photos and Videos Are Handled</h2>
+    <ul>
+      <li><strong>Selection</strong> — The App uses the Android Photo Picker, so only the
+        single photo you pick at that moment is passed to the App. The App cannot browse
+        your photo library.</li>
+      <li><strong>Editing</strong> — All rendering and composition runs on your device.
+        No server or cloud service is involved.</li>
+      <li><strong>Saving</strong> — Results are written to your device's gallery only when
+        you tap Save: images to <code>Pictures/사꾸작</code> and videos to
+        <code>Movies/사꾸작</code>. These files exist only on your device.</li>
+      <li><strong>Retention</strong> — The App keeps no copy of the photo you selected.
+        Work in progress is discarded when the App closes.</li>
+    </ul>
+
+    <h2>4. Permissions</h2>
+    <p>The App requests one permission: <code>WRITE_EXTERNAL_STORAGE</code>, used to save
+      your finished image or video to the gallery, and only on Android 9 (API 28) and
+      below. It is not requested on Android 10 or later.</p>
+    <p>The App does <strong>not</strong> declare the <code>INTERNET</code> permission.
+      It is therefore technically incapable of network communication.</p>
+
+    <h2>5. Third Parties and Advertising</h2>
+    <p>The App contains no advertising, no in-app purchases, and no third-party analytics,
+      advertising, or crash-reporting SDKs. No data is shared with or processed by any
+      third party.</p>
+
+    <h2>6. Sharing</h2>
+    <p>After saving, if you choose "Share", the Android share sheet passes the file to an
+      app you select. From that point the receiving app's own privacy policy applies.
+      Sakujak takes no part in that process and records nothing about it.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>The App collects no personal data from anyone, regardless of age. It is not
+      designed primarily for children.</p>
+
+    <h2>8. Data Retention and Deletion</h2>
+    <p>Because the App stores no user data, there is nothing to request deletion of.
+      Photos and videos you saved live on your device and can be deleted from your gallery
+      or file manager. Uninstalling the App removes its settings; files already saved to
+      your gallery remain.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>If the App's functionality changes such that this policy needs revision, this page
+      will be updated and the "Last updated" date changed. Material changes — such as the
+      introduction of any data collection — will additionally be communicated through an
+      app update.</p>
+
+    <h2>10. Contact</h2>
+    <p><a href="mailto:yooheeung@gmail.com">yooheeung@gmail.com</a></p>
+  </section>
+
+  <footer>
+    사꾸작 (Sakujak) · com.dosa.sakujak
+  </footer>
+
+</div>
+</body>
+</html>
